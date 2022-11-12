@@ -1,0 +1,19 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #87c726;
+    border: 1px solid rgb(209, 220, 107);
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    font-family: Poor Story;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+  
